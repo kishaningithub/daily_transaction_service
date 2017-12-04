@@ -34,3 +34,9 @@ curl -X GET \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json'
 ```
+
+## Running tests
+
+```bash
+./build_scripts/run_tests.sh
+```

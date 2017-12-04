@@ -1,0 +1,7 @@
+sudo: false
+
+services:
+  - docker
+
+script:
+  - ./build_scripts/run_tests.sh
