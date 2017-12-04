@@ -1,4 +1,6 @@
-# DailyTransactionService
+# Daily Transaction Service
+
+API For personal transaction logging
 
 ## Local setup
 
@@ -8,15 +10,6 @@
 * Start Phoenix endpoint with `./build_scripts/local/start.sh`
 
 ## API Test drive
-
-Listing all transactions
-
-```bash
-curl -X GET \
-  http://localhost:4000/api/daily_transactions \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json'
-```
 
 Creating a transaction
 
@@ -31,4 +24,13 @@ curl -X POST \
     "type_of_transaction": "D",
     "description": "OLA Cab"
   }'
+```
+
+Listing all transactions
+
+```bash
+curl -X GET \
+  http://localhost:4000/api/daily_transactions \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json'
 ```
