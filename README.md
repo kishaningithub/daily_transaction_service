@@ -1,5 +1,7 @@
 # Daily Transaction Service
 
+[![Build Status](https://travis-ci.org/kishaningithub/daily_transaction_service.svg?branch=master)](https://travis-ci.org/kishaningithub/daily_transaction_service)
+
 API For personal transaction logging
 
 ## Local setup
